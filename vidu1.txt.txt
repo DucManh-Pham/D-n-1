@@ -1,3 +1,1 @@
-$ git add .
-$ git commit -m "push ass"
-$ git push
+sds
