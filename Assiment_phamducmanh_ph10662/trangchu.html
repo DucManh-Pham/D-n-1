@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="trangchu.html"><img src="/img/logo.pepsi.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="trangchu.html">Trang Chủ</a></li>
+                    <li><a href="xemsanpham.html">Xem Sản Phẩm</a></li>
+                    <Li><a href="thongtin.html">Thông Tin</a></Li>
+                    <li><a href="dangky.html">Đăng Ký</a></li>
+                    <li><a href="lienhechungtoi.html">Liên  Hệ Chúng Tôi</a></li>
+                </ul>
+            </div>
+            <!--End menu-->
+            <div class="search">
+                <input type="text" class="search-left">
+                <a href=""><p></p></a>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="img/img_nature_wide.jpg.png" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img/img_snow_wide.jpg.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img/img_mountains_wide.jpg.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <div class="video">
+            <video width="1440" controls>
+                <source src="/video/Khui Pepsi - Khui hè tột đỉnh - Pepsi x Sơn Tùng M-TP.mp4" type="video/mp4">
+                <source src="/video/Khui Pepsi - Khui hè tột đỉnh - Pepsi x Sơn Tùng M-TP.mp4" type="video/ogg">
+              </video>
+        </div>
+        <div class="view">
+            <div class="text">
+                <p>TẤT CẢ HƯƠNG VỊ YÊU<br>
+                    THÍCH.<br>
+                    TẤT CẢ NGAY Ở ĐÂY.</p>
+                <span>Pepsi. Chế độ Pepsi. Pepsi không đường. Các loại pepsi ở đây. <br>
+                    So sánh hương vị, nhận thông tin dinh dưỡng và kiểm tra<br>
+                    thành phần cho tất cả các sản phẩm Pepsi của chúng tôi.</span>
+                    <a href=""><button class="view-product" type="button">XEM SẢN PHẨM</button></a>
+            </div>
+            <div class="three-pepsi">
+                <img src="/img/pepsiaA.png" alt="">
+            </div>
+        </div>
+        <div class="feeling">
+            <p>ZERO SUGAR.<br>
+                DONE RIGHT.</p>
+            <img src="/img/Pepsi-black-1024x683.jpg" alt="">
+        </div>
+        <div class="all-felling">
+            <a href=""><h1>TẤT CẢ CẢM XÚC Ở ĐÂY. THEO DÕI PEPSI.</h1></a>
+        </div>
+        <div class="img">
+            <a href=""><img src="/img/den.PNG" alt=""></a>
+            <a href=""><img src="/img/hat.PNG" alt=""></a>
+            <a href=""><img src="/img/dem.PNG" alt=""></a>
+            <a href=""><img src="/img/banh.PNG" alt=""></a>
+        </div>
+        <div class="fodder">
+            <div class="logo-fodder">
+                <a href=""><img src="/img/logo.pepsi.png" alt=""></a>
+            </div>
+            <div class="text-fodder1">
+                <ul>
+                    <li><a href="">LIÊN HỆ CHÚNG TÔI</a></li>
+                    <li><a href="">ĐIỀU KHOẢN VÀ ĐIỀU KIỆN</a></li>
+                    <li><a href="">CHÍNH SÁCH BẢO MẬT</a></li>
+                </ul>
+            </div>
+            <div class="text-fodder2">
+                <ul>
+                    <li><a href="">BẢN QUYỀN</a></li>
+                    <li><a href="">SẢN PHẨM</a></li>
+                    <li><a href="">ĐỊNH VỊ CỬA HÀNG</a></li>
+                </ul>
+            </div>
+            <div class="text-fodder3">
+                <ul>
+                    <li><a href="">PHỤC VỤ PEPSI</a></li>
+                    <li><a href="">QUẢNG CÁO</a></li>
+                </ul>
+            </div>
+            <div class="text-fodder4">
+                <a href=""><button class="button" type="button"><a href=""> Theo dõi tới bản tin</a></button></a>
+                <a href=""><p></p></a>
+            </div>
+        </div>
+    </div>
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+</body>
+</html>

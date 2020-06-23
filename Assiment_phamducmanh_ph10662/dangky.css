@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: FontAwesome;
+    src: url("font-awesome/fonts/fontawesome-webfont.ttf");
+}
+.container{
+    position: absolute;
+    position: relative;
+    margin: auto;
+    position: relative;
+    width: 1440px;
+    height: 1550px;
+    background: #FFFFFF;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1440px;
+    height: 100px;
+    background: #0065C3;
+}
+.logo{
+    padding-left: 33px;
+    padding-top: 23px;
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: fixed;
+    position: absolute;
+    padding-left: 550px;
+}
+ul{
+    margin: 0;
+    padding-left: 150px;
+    padding-top: 27px;
+}
+ul li{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px;
+    color: #fff;
+    padding: 0;
+    margin-right:10px;
+}
+li a{
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 10px;
+    color: #fff;
+    display: block;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: FontAwesome;
+}
+ul li :hover{
+    color: #4E94D5;
+}
+.content-top img{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    padding-top: 10px;
+}
+.content-top h1{
+    position: absolute;
+    width: 556px;
+    height: 67px;
+    left: 442px;
+    top: 198px;
+    font-family: FontAwesome;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.content-top p{
+    position: absolute;
+    width: 289px;
+    height: 44px;
+    left: 288px;
+    top: 460px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.content-top span{
+    position: absolute;
+    width: 70px;
+    height: 41px;
+    left: 1122px;
+    top: 462px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.line{
+    position: absolute;
+    width: 938px;
+    height: 0px;
+    left: 263px;
+    top: 512px;
+    border: 2px solid #FFFFFF;
+}
+.content-mid h2{
+    position: absolute;
+    width: 251px;
+    height: 44px;
+    left: 66px;
+    top: 850px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+.img1{
+    position: absolute;
+    width: 440px;
+    height: 270px;
+    left: 175px;
+    top: 970px;
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.img2{
+    position: absolute;
+    width: 440px;
+    height: 270px;
+    left: 820px;
+    top: 970px;
+    box-shadow: inset 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.content-mid p{
+    position: absolute;
+    width: 412px;
+    height: 64px;
+    left: 179px;
+    top: 1245px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #E25151;
+}
+.content-mid span{
+    position: absolute;
+width: 413px;
+height: 72px;
+left: 822px;
+top: 1245px;
+
+font-family: Amaranth;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+
+color: #E25151;
+
+}
+.fodder{
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 1350px;
+    background-color: #0065C3;
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr;
+}
+.logo-fodder img{
+    position: absolute;
+    width: 75px;
+    height: 60px;
+    left: 37px;
+    margin-top: 80px;
+}
+.text-fodder4{
+    padding-top: 30px;
+}
+.button{
+    position: absolute;
+    width: 269px;
+    height: 46px;
+    left: 1134px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(176, 205, 233);
+    color: #FFFFFF;
+    font-family: FontAwesome;
+    font-size: 150%;
+}
+.button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.text-fodder4 p{
+    font-family: FontAwesome;
+    color: #FFFFFF ;
+    font-size: 250%;
+    padding-top: 60px;
+    letter-spacing: 8px;
+    padding-left: 50px;
+}

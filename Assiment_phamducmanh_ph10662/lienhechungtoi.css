@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: FontAwesome;
+    src: url("font-awesome/fonts/fontawesome-webfont.ttf");
+}
+.container{
+    position: absolute;
+    position: relative;
+    width: 1440px;
+    height: 2050px;
+    background: #0065C3;
+    margin: auto;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1440px;
+    height: 100px;
+    background: #0065C3;
+}
+.logo{
+    padding-left: 33px;
+    padding-top: 23px;
+}
+.logo img{
+    width: 60px;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    display: block;
+    position: fixed;
+    position: absolute;
+}
+ul {
+    margin: 0;
+    padding-left: 150px;
+    padding-top: 27px;
+}
+ul li{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px;
+    color: #fff;
+    padding: 0;
+    margin-right:10px;
+}
+li a{
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 10px;
+    color: #fff;
+    display: block;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: FontAwesome;
+}
+ul li :hover{
+    color: #4E94D5;
+}
+.search{
+    text-align: right;
+}
+.search-left{
+    position: absolute;
+    width: 155px;
+    height: 35px;
+    left: 1235px;
+    top: 36px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: -10px;
+    border: none;
+}
+.search p{
+    position: absolute;
+    width: 23px;
+    height: 28px;
+    left: 1358px;
+    top: 28px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #0065C3;
+}
+.banner img{
+position: absolute;
+width: 1440px;
+height: 373px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.logo2 img{
+    position: absolute;
+    left: 34.17%;
+    right: 54.1%;
+    top: 28.84%;
+    bottom: 62.93%;
+    width: 180px;
+    height: 150px;
+}
+.logo2 p{
+    position: absolute;
+    left: 47.85%;
+    right: 36.88%;
+    top: 29.68%;
+    bottom: 63.84%;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 116px;
+    text-align: center; 
+    color: #FFFFFF; 
+}
+.text p{
+    position: absolute;
+    width: 987px;
+    height: 104px;
+    left: 248px;
+    top: 850px;
+    
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.content-top p{
+    position: absolute;
+    width: 191px;
+    height: 34px;
+    left: 248px;
+    top: 1000px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.fname{
+    position: absolute;
+    width: 951px;
+    height: 85px;
+    left: 248px;
+    top: 1100px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.content-top span{
+    position: absolute;
+    width: 46px;
+    height: 34px;
+    left: 248px;
+    top: 1200px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px; 
+    color: #FFFBFB;    
+}
+.lname{
+position: absolute;
+width: 951px;
+height: 85px;
+left: 248px;
+top: 1250px;
+background: #FFFFFF;
+border-radius: 30px;
+}
+.content-mid p{
+position: absolute;
+width: 162px;
+height: 34px;
+left: 248px;
+top: 1350px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+color: #FFFFFF;
+}
+.ename{
+position: absolute;
+width: 951px;
+height: 85px;
+left: 248px;
+top: 1430px;
+background: #FFFFFF;
+border-radius: 30px;
+}
+.content-mid span{
+font-family: FontAwesome;
+position: absolute;
+width: 272px;
+height: 34px;
+left: 248px;
+top: 1530px;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+color: #FFFFFF;
+}
+.nname{
+    position: absolute;
+    width: 951px;
+    height: 85px;
+    left: 248px;
+    top: 1620px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;    
+}
+.content-bot p{
+position: absolute;
+width: 179px;
+height: 34px;
+left: 248px;
+top: 1720px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+color: #FFFFFF;
+}
+.cname{
+position: absolute;
+width: 951px;
+height: 85px;
+left: 248px;
+top: 1800px;
+
+background: #FFFFFF;
+border-radius: 30px;
+}
+.dangky{
+position: absolute;
+width: 270px;
+height: 80px;
+left: 248px;
+top: 1900px;
+background: #2FAFD6;
+border-radius: 10px;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+color: #FFFFFF;
+}
